@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--style-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!--script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        #header{
+            background-color: #fff;
+            box-shadow: 4px 1px 0.1px rgb(150, 150, 150);
+        }
+        .blockReg{
+            margin-top: 200px;
+        }
+        form{
+            margin-left: 400px;
+        }
+    </style>
+    <title>Alivio</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="wrapper">
+            <div class="header-inner">
+                <div class="logo"><img src="img/Logo.png" alt="logo"></div>
+                <nav class="nav">
+                    <ul class="ul">
+                        <li class="list"><a href="index.html" class="link">Main page</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <div class="blockReg">
+        <div class="wrapper">
+            <form action="">
+                <label for="inputText">name</label>
+                <input type="text" placeholder="User name" id="inputText"><br>
+                <label for="password">password</label>
+                <input type="password" placeholder="password" id="inputPassword"><br>
+                <input type="button" value="Sign up" id="inputBtn">
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
